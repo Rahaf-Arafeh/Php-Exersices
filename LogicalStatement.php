@@ -129,7 +129,26 @@
        // Question Nine
        echo "Q9";
        echo "<br/>";
-
+       $operation="Multiplication";
+       $no1=3;
+       $no2=4;
+       switch($operation){
+           case "Summation":
+            echo "Summation Result :"." ".$no1+$no2;
+            break;
+            case "Subtraction":
+                echo "Subtraction Result :"." ".$no1-$no2;
+                break;
+             case "Division":
+                echo "Division Result :"." ".$no1/$no2;
+                break;
+             case "Multiplication":
+                 echo "Multiplication Result :"." ".$no1*$no2;
+                  break;
+            default:
+            echo "You Did Not Pick Any Operation!!";
+            
+       }
        echo "<br/>";
        echo "<hr/>";
        // Question Ten

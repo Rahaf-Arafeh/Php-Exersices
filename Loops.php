@@ -170,7 +170,34 @@
          // Question Twelve
          echo "Q12";
          echo "<br/>";
-         
+         $size = 5;
+$chr1="A";
+for($i=1;$i<=$size;$i++){
+    for($j=1;$j<=$size-$i;$j++){
+        echo "&nbsp;&nbsp;";
+    }
+    $chr1="A";
+    for($k=1;$k<=$i;$k++){
+        echo "$chr1&nbsp;&nbsp;";
+        $chr1++;
+    }
+echo "<br/>";
+}
+
+$size = 5;
+for($i=1;$i<$size;$i++){
+    for($k=1;$k<=$i;$k++){
+        echo "&nbsp;&nbsp;";
+    }
+    $chr1="A";
+    for($j=1;$j<=$size-$i;$j++){
+        echo"$chr1&nbsp;&nbsp;";
+        $chr1++;
+
+        // echo "&nbsp;&nbsp;";
+    }
+echo "<br/>";
+}
         
 
     ?>
